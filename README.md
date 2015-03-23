@@ -5,6 +5,8 @@
 
 The **src** directory containes a Python script which implements solution to the problem of **Word Count** and **Running Median**. The script reads all the text files in the directory **wc_input** and processes them alphabetically. **Word counts** and **Running median** for the text files are saved in **wc_result.txt** and **med_result.txt** which are saved in the directory **wc_output**. 
 
+Word Count is implemented using Python's defaultdict and running median is implemented using a min_heap and a max_heap.
+
 To execute the Python program, execute the **run.sh** script.
 
 ####Output format: 
